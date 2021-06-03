@@ -12,7 +12,7 @@ public class MainSetterInjectionMain {
 		XmlBeanFactory factory = new XmlBeanFactory(resource);
 		Object obj = factory.getBean("wmg");
 		WishMessageGenerator wishGenerator = (WishMessageGenerator) obj;
-		wishGenerator.genarateWishGenarator("Srinivas");
+		wishGenerator.genarateWishGenarator();
 
 	}
 
